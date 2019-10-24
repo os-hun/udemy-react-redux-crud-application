@@ -1,10 +1,8 @@
-export const INCREMENT = 'INCREMENT'
-export const DECREMENT = 'DECREMENT'
+// 後で npm install -s axios
+import axios from 'axios'
 
-export const increment = () => ({
-  type: 'INCREMENT'
-})
+export const READ_EVENTS = 'READ_EVENTS'
 
-export const decrement = () => ({
-  type: 'DECREMENT'
+export const readEvents = () => ({
+  type: READ_EVENTS
 })
